@@ -45,13 +45,13 @@ function showUserCreateBoxPesanan() {
       '<input id="tanggal" class="swal2-input" placeholder="tanggal" type="date">' +
       '<textarea id="detail" class="swal2-textarea" placeholder="detail" type="text"></textarea>' +
       '<select id="status" class="swal2-input" placeholder="status">' +
-      '<option value="draf">Draf Perancangan</option>' +
-      '<option value="testing">Testing</option>' +
-      '<option value="desain1">Desain(20%)</option>' +
-      '<option value="desain2">Desain(50%)</option>' +
-      '<option value="desain3">Desain(100%)</option>' +
-      '<option value="manufaktur">Project Manufaktur</option>' +
-      '<option value="done">Project Done</option>' +
+      '<option value="Draf Perancangan">Draf Perancangan</option>' +
+      '<option value="Testing">Testing</option>' +
+      '<option value="Desain(20%)">Desain(20%)</option>' +
+      '<option value="Desain(50%">Desain(50%)</option>' +
+      '<option value="Desain(100%)">Desain(100%)</option>' +
+      '<option value="Project Manufaktur">Project Manufaktur</option>' +
+      '<option value="Project Done">Project Done</option>' +
       "</select>",
     focusConfirm: false,
     preConfirm: () => {
