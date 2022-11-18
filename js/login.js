@@ -1,6 +1,6 @@
 var jwt = localStorage.getItem("admin");
 if (jwt != null) {
-  window.location.href = "/index-admin.html";
+  window.location.href = "/index.html";
 }
 
 function login() {
