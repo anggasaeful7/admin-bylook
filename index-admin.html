@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Admin ByLookStay</title>
+    <style>
+      .input-data{
+          width:400px;
+          height: 25px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+          padding: 3px;
+          font-family: 'Poppins-Black';
+          border-radius: 10px;
+          border: 1px solid #6C63FF;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+      }
+    </style>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <link rel="stylesheet" href="css/index-admin.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navbar navbar-default">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index-admin.html" style="color: white;">ByLook Stay</a>
+        </div>
+      </nav>
+      <aside class="sidebar">
+        <menu>
+          <ul class="menu-content">
+            <li><a href="index-admin.html"><i class="fa fa-home"></i>  Home</a></li>
+          </ul>
+        </menu>
+      </aside>
+      
+      <section class="content">
+        <button type="button"
+          style="background: #605FA8; color: white; border: none; padding: 10px; border-radius: 10px; width: 200px; margin-top: 20px;"
+          onclick="showUserCreateBoxPesanan()">Tambah Pesanan</button>
+        <div class="inner">
+          
+          <table class="styled-table">
+            <thead>
+                <tr>
+                   <th>ID</th>
+                    <th>Nama</th>
+                    <th>Email</th>
+                    <th>Pesanan</th>
+                    <th>Detail</th>
+                    <th>Status</th>
+                    <th>Tanggal</th>
+                    <th>Aksi</th>
+                </tr>
+            </thead>
+            <tbody id="table-status">
+                
+            </tbody>
+        </table>
+        </div>
+      </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.16/dist/sweetalert2.all.min.js"></script>
+    <script src="js/cekAdmin.js"></script>
+    <script src="js/pesanan.js"></script>
+    </body>
+</html>
