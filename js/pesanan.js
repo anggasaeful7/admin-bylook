@@ -199,3 +199,8 @@ function pesananDelete(id) {
     }
   };
 }
+
+function logout() {
+  localStorage.removeItem("admin");
+  window.location.href = "/login-admin.html";
+}
