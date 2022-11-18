@@ -48,7 +48,7 @@ function showUserCreateBoxPesanan() {
       '<option value="Draf Perancangan">Draf Perancangan</option>' +
       '<option value="Testing">Testing</option>' +
       '<option value="Desain(20%)">Desain(20%)</option>' +
-      '<option value="Desain(50%">Desain(50%)</option>' +
+      '<option value="Desain(50%)">Desain(50%)</option>' +
       '<option value="Desain(100%)">Desain(100%)</option>' +
       '<option value="Project Manufaktur">Project Manufaktur</option>' +
       '<option value="Project Done">Project Done</option>' +
@@ -136,7 +136,7 @@ function showUserEditBoxPesanan(id) {
           '<option value="Draf Perancangan">Draf Perancangan</option>' +
           '<option value="Testing">Testing</option>' +
           '<option value="Desain(20%)">Desain(20%)</option>' +
-          '<option value="Desain(50%">Desain(50%)</option>' +
+          '<option value="Desain(50%)">Desain(50%)</option>' +
           '<option value="Desain(100%)">Desain(100%)</option>' +
           '<option value="Project Manufaktur">Project Manufaktur</option>' +
           '<option value="Project Done">Project Done</option>' +
